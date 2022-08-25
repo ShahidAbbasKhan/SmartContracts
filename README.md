@@ -11,7 +11,7 @@
 
       Reset the value of counter to 0
       
- ## BalanaceTransfer Smart Contract
+ ## BalanceTransfer Smart Contract
 
 - receiveBalance Function:
 
