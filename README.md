@@ -59,7 +59,7 @@
       mapping amount will be zero of that address.
       
 
-## WithdrawBalance Smart Contract
+## PartialAmountSending Smart Contract
 
 - receiveBalance Function:
 
