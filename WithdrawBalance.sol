@@ -11,7 +11,7 @@ contract balanceUsingMapping {
     }
 
     function sendMoney() public payable {
-        balanceReceived[msg.sender] = msg.value;
+        balanceReceived[msg.sender] += msg.value;
     }
 
     function withdrawAllMoney(address payable _to) public {
