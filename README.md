@@ -30,7 +30,7 @@
 - participate Function:
 
       For participation in Lottery Participant balance should
-       be greater than 1 ether for participation then can participate:
+      be greater than 1 ether for participation then can participate:
 - showBalanc Function:
 
       Only manager can check the balance of Contract address that is stored:
@@ -40,7 +40,7 @@
 - pickWinner Function:
 
       Manager will pickwinner and participants should be 3 or greater than 3,
-       Balance of the contract will be transfer to Random Address from te participants.
+      Balance of the contract will be transfer to Random Address from te participants.
 
 ## WithdrawBalance Smart Contract
 
@@ -50,10 +50,24 @@
 - sendMoney Function:
 
       sending some value to smart contract address will be stored on smart contract also store
-       in balanceReceived in the form of address => balance key value pairs that which address has
-        deposit how much amount:
+      in balanceReceived in the form of address => balance key value pairs that which address has
+      deposit how much amount:
 - withdrawAllMoney Function:
 
       The address which sent amount to contract address can withdraw amount that
-       is deposited by that address, to any address then from balanceReceive mapping amount
-        will be zero of that address.
+      is deposited by that address, to any address then from balanceReceive mapping amount
+      will be zero of that address.
+
+## WithdrawBalance Smart Contract
+
+- receiveBalance Function:
+
+      This function will receive balance from addresses to store on contract address
+      and also store address and that address value deposited:
+- showBalanceFunction:
+
+      will return the total balance received by contract address:
+- withDrawAmount Function:
+
+      This function will get address and amount that sender want to send money to particular
+      Address and amount that will be deducted from sender amount stored in mapping and contract address.
