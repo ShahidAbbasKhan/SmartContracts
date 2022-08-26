@@ -37,3 +37,15 @@
 - pickWinner Function:
 
       Manager will pickwinner and participants should be 3 or greater than 3, Balance of the contract will be transfer to Random Address from te participants.
+
+## WithdrawBalance Smart Contract
+
+- getBalance Function:
+
+      will return the balance stored on smart contract address:
+- sendMoney Function:
+
+      sending some value to smart contract address will be stored on smart contract also store in balanceReceived in the form of address => balance key value pairs that which address has deposit how much amount:
+- withdrawAllMoney Function:
+
+      The address which sent amount to contract address can withdraw amount that is deposited by that address, to any address then from balanceReceive mapping amount will be zero of that address.
