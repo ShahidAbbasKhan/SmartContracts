@@ -34,6 +34,6 @@
 - random Function:
 
       This function is for generating a random number.
--pickWinner Function:
+- pickWinner Function:
 
       Manager will pickwinner and participants should be 3 or greater than 3, Balance of the contract will be transfer to Random Address from te participants.
