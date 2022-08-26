@@ -21,9 +21,9 @@
       will show the balance that is received at that contract address:
 - sendBalance Function:
 
-      owner of that contract will be able to call sendBalance function
-       to send that balance stored on contract address to Specific Address
-        should be pass as an aurgument
+      owner of that contract will be able to call sendBalance function to send 
+      that balance stored on contract address to Specific Address
+      should be pass as an aurgument
 
 ## Lottery Contract
 
@@ -51,8 +51,7 @@
 
       sending some value to smart contract address will be stored on smart contract also store
       in balanceReceived in the form of address => balance key value pairs that which address
-      has
-      deposit how much amount:
+      has deposit how much amount:
 - withdrawAllMoney Function:
 
       The address which sent amount to contract address can withdraw amount that
