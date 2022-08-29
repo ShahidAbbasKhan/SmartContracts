@@ -80,7 +80,7 @@
       set the owner of the smart contract.
 - receiveMoney Function:
 
-     This function will receive balance from addresses to store on contract address
+      This function will receive balance from addresses to store on contract address
       and also store address and that address value  on balanceReceived mapping :
 - withdrawMoney Function:
 
