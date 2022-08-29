@@ -21,16 +21,16 @@
       will show the balance that is received at that contract address:
 - sendBalance Function:
 
-      owner of that contract will be able to call sendBalance function
-       to send that balance stored on contract address to Specific Address
-        should be pass as an aurgument
+      owner of that contract will be able to call sendBalance function to send 
+      that balance stored on contract address to Specific Address
+      should be pass as an aurgument
 
 ## Lottery Contract
 
 - participate Function:
 
-      For participation in Lottery Participant balance should
-      be greater than 1 ether for participation then can participate:
+      For participation in Lottery Participant balance should be greater
+      than 1 ether for participation then can participate:
 - showBalanc Function:
 
       Only manager can check the balance of Contract address that is stored:
@@ -39,8 +39,8 @@
       This function is for generating a random number.
 - pickWinner Function:
 
-      Manager will pickwinner and participants should be 3 or greater than 3,
-      Balance of the contract will be transfer to Random Address from te participants.
+      Manager will pickwinner and participants should be 3 or greater than 3,Balance of the
+      contract will be transfer to Random Address from te participants.
 
 ## WithdrawBalance Smart Contract
 
@@ -50,15 +50,16 @@
 - sendMoney Function:
 
       sending some value to smart contract address will be stored on smart contract also store
-      in balanceReceived in the form of address => balance key value pairs that which address has
-      deposit how much amount:
+      in balanceReceived in the form of address => balance key value pairs that which address
+      has deposit how much amount:
 - withdrawAllMoney Function:
 
       The address which sent amount to contract address can withdraw amount that
-      is deposited by that address, to any address then from balanceReceive mapping amount
-      will be zero of that address.
+      is deposited by that address, to any address then from balanceReceive
+      mapping amount will be zero of that address.
+      
 
-## WithdrawBalance Smart Contract
+## PartialAmountSending Smart Contract
 
 - receiveBalance Function:
 
@@ -69,5 +70,5 @@
       will return the total balance received by contract address:
 - withDrawAmount Function:
 
-      This function will get address and amount that sender want to send money to particular
-      Address and amount that will be deducted from sender amount stored in mapping and contract address.
+      This function will get address and amount that sender want to send money to particular Address and
+      amount that will be deducted from sender amount stored in mapping and contract address.
