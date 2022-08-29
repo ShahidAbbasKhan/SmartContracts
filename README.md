@@ -65,10 +65,29 @@
 
       This function will receive balance from addresses to store on contract address
       and also store address and that address value deposited:
-- showBalanceFunction:
+- showBalance Function:
 
       will return the total balance received by contract address:
 - withDrawAmount Function:
 
       This function will get address and amount that sender want to send money to particular Address and
       amount that will be deducted from sender amount stored in mapping and contract address.
+
+## selfDestructing Smart Contract
+
+- constructor:
+
+      set the owner of the smart contract.
+- receiveMoney Function:
+     This function will receive balance from addresses to store on contract address
+      and also store address and that address value  on balanceReceived mapping :
+- withdrawMoney Function:
+
+      This function will get address and amount that sender want to send money to particular Address and
+      amount that will be deducted from sender amount stored in mapping and contract address.
+- returningMoney Function:
+
+      will show the total balance at contract address.
+- destructContract Function:
+       
+        This function will be called by only owner to destruct the contract.
