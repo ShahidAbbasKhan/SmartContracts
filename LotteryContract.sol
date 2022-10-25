@@ -15,7 +15,7 @@ contract LotterySmartContract {
         players.push(payable(msg.sender));
     }
     function showBalanc() public view returns (uint){
-        require(Manager==msg.sender,"You are not Manager");
+        require(msg.sender==Manager,"You are not Manager");
         return address(this).balance;
     }
     function random() public view returns(uint){
