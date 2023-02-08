@@ -7,6 +7,7 @@ contract BloodBank {
     address admin;
     constructor() {
         admin = msg.sender;
+        PatientRecord.push();
     }
 
     // PatientType
@@ -58,7 +59,7 @@ contract BloodBank {
         require(!isRegistered[_cnic],"Already Registered");
 
         // get the legth of array
-        uint256 index = PatientRecord.length;
+        uint256 index = PatientRecord.length; //at start will be 1
 
         // insert records
         PatientRecord.push();
